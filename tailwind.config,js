@@ -1,7 +1,10 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
 
-module.exports = {}
-  theme: {}
-    extend: {}
+module.exports = {
+  darkMode: 'class', }
+  theme: {
+    extend: {},
+  },
+  plugins: []
       fontFamily: {
       sans: ['InterVariable', ...defaultTheme.fontFamily.sans],} 
